@@ -1,2 +1,2 @@
-# week5-campus-store-api
-API Design Assignment for Campus Store
+Author: Obet Fernando
+Section: ACT 2
