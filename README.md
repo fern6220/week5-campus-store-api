@@ -17,3 +17,16 @@ GET /api/v1/products/prod_98765 HTTP/1.1
 Host: api.campusstore.edu
 Accept: application/json
 
+GET /api/v1/products?category=textbooks&sort=price&direction=asc HTTP/1.1
+Host: api.campusstore.edu
+Accept: application/json
+
+POST /api/v1/orders HTTP/1.1
+Host: api.campusstore.edu
+Content-Type: application/json
+
+{
+  "product_id": 3,
+  "quantity": 1
+}
+
